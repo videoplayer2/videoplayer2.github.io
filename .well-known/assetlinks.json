@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.example.practice",
+    "package_name": "com.sharathkumar.videoplayer",
     "sha256_cert_fingerprints":
     ["85:E4:82:9B:4E:47:1D:4A:7A:E6:59:61:83:69:CC:50:2D:D2:90:57:66:04:B4:71:41:A1:56:4F:B3:09:62:76"]
   }
