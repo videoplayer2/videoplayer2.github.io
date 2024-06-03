@@ -7,13 +7,13 @@
     <script type="text/javascript">
         function redirectToPlayStore() {
             // Replace with your app's package name
-            var appPackageName = "com.sharathkumar.videoplayer";
+            var appPackageName = "com.example.yourapp";
 
-            // Intent URL to open the Play Store app
-            var playStoreIntentUrl = "intent://details?id=" + appPackageName + "#Intent;scheme=https;package=com.android.vending;end";
+            // Construct the Play Store URL
+            var playStoreUrl = "https://play.google.com/store/apps/details?id=" + appPackageName;
 
-            // Redirect to the Play Store app
-            window.location.href = playStoreIntentUrl;
+            // Redirect to the Play Store URL
+            window.location.href = playStoreUrl;
         }
 
         // Execute the function after the page has loaded
@@ -25,4 +25,4 @@
 <body>
     <h1>Redirecting to the Play Store...</h1>
 </body>
-</html>
+</htm
